@@ -1,0 +1,42 @@
+/* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.text-editor-header {
+    background-color: #676c6d;
+    padding: 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-editor-header .btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.content {
+    min-height: 200px;
+    border: 1px solid #e5eaeb;
+    border-top: 10px;
+    padding: 20px;
+}
